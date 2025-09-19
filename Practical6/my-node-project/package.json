@@ -1,0 +1,18 @@
+{
+  "name": "custom-eslint-rule-example",
+  "version": "1.0.0",
+  "description": "An example of a custom ESLint rule.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "MGDEVELOPER",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0"
+  }
+}
