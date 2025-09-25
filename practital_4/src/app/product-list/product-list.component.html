@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let product of products" [class.expensive]="product.price > 1000">
+    <span appHighlightText>{{product.name}}</span> - ₹{{product.price}}
+  </li>
+</ul>
